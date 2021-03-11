@@ -31,23 +31,39 @@
         </fieldset>
         <fieldset>
             <legend>Quizz/Perguntas:</legend>
-            <p>Resultados das respostas dadas: 😄= correcta 😅 = incorrecta 😒 = really!!</p>
-            <p>1)Qual é o nome da Catedral de Paris?</p>
-            <select name = "Local" id = "Local">
-                <option value = "1)😅">Louvre</option>
-                <option value = "1)😄"> Notre-Dame</option>
-                <option value = "1)😅">Monalisa</option>
-                <option value = "1)😒">coco</option>
-            </select>
-            <p>2)Qual o monumento que não se localiza em Paris?</p>
-            <p>
+            <label>1)Qual é o nome da Catedral de Paris?
+                <select name = "Local" id = "Local">
+                    <option value = "1)😅">Louvre</option>
+                    <option value = "1)😄"> Notre-Dame</option>
+                    <option value = "1)😅">Monalisa</option>
+                    <option value = "1)😒">coco</option>
+                </select>
+            </label><br><br>
+            <label>
+                2)Qual o monumento que não se localiza em Paris?</label><br><br>
+            <label>
                 <input type="checkbox" id= "1" name="1" value="2)😄">Basílica de São Pedro</p>
                 <input type="checkbox" id= "2" name="2" value="2)😒">Notre-Dame</p>
-                <input type="checkbox" id= "2" name="2" value="2)😅">Torre Eiffel</p>
-            </p>
-            <p>
-
-
-            </p>
+                <input type="checkbox" id= "3" name="3" value="2)😅">Torre Eiffel</p>
+            </label><br><br>
+            <label>3)Qual o ano em começou a revolução Francesa?</label><br><br>
+            <label>
+                <input type="date" name="" id="1789-05-05" max = "2021-03-16" autocomplete="off">
+            </label><br><br>
+            <label>
+                4)Qual é uma das cores da bandeira Francesa?
+                    <input type= "color">
+            </label><br><br>
+            <label>
+                5) Quantas palavras faziam parte da revolução Francesa?  
+                <input type="number" max="10" min="0" step="3">
+            </label><br><br>
+            <label>
+                6) Quanto gosta de Paris?<br><br>
+                <input type = "range" name = "perguntas6" min="0" max="100" step="any">
+            </label><br><br>
+            <input type="submit" value="Enviar Formulario">
         </fieldset>
     </form>
+</body>
+</html>
