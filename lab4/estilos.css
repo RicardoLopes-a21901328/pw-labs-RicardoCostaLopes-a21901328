@@ -1,0 +1,41 @@
+body{
+    width: auto;
+    background-color:lightslategrey ;
+}
+table{
+    border: "10px";
+    border: black;
+    background-color: whitesmoke;
+    width: auto
+}
+td{
+    padding: auto;
+    padding-bottom: auto;
+    padding-top: auto;
+}
+iframe{
+    width: 560px;
+    height: 315px;
+    border: "0";
+}
+svg Map{
+    height: 400px;
+    width: 600px;
+}
+a:active{
+    color: red;
+}
+img{
+    display: block;
+    margin-right: auto;
+}
+header ~ main{
+    margin: auto;
+    width: auto;
+}
+main + footer{
+    margin: auto;
+    width: 900px;
+}
+
+
