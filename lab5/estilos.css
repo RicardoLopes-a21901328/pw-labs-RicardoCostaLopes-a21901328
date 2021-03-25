@@ -1,0 +1,82 @@
+body{
+    width: auto;
+    background-color:lightslategrey ;
+}
+table{
+    border: "10px";
+    border: black;
+    background-color: whitesmoke;
+    width: auto
+}
+td{
+    padding: auto;
+    padding-bottom: auto;
+    padding-top: auto;
+}
+iframe{
+    width: 560px;
+    height: 315px;
+    border: "0";
+}
+svg Map{
+    height: 400px;
+    width: 600px;
+}
+a:active{
+    color: red;
+}
+img{
+    display: block;
+    margin-right: auto;
+}
+header{
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+    grid-row: 6 / 7 ;
+    grid-column: 1 / 4;
+}
+header>section{
+    margin-right: 175px;
+    margin-left: 175px;
+    width: 500px;
+}
+main{
+    grid-row: 6 / 7 ;
+    grid-column: 1 / 4;
+} 
+section>nav>h3>a{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+aside{
+    grid-row: 6 / 7 ;
+    grid-column: 1 / 4;
+}
+footer{
+    grid-row: 1 / 4 ;
+    grid-column: 6 / 7;
+    background-color: white;
+}
+
+@media only screen and (max-width: 768px){
+    header{
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 2;
+        grid-column-end: 3;
+    }
+    main{
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 2;
+        grid-column-end: 3;
+    }
+    footer{
+        grid-row: 1 / 4 ;
+        grid-column: 6 / 7;
+        background-color: green;
+    }
+}
+
+
