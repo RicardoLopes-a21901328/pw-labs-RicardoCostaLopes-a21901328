@@ -72,6 +72,12 @@ footer{
         grid-row-start: 2;
         grid-column-end: 3;
     }
+    img{
+        max-width: 300px;
+        max-height: 300px;
+        min-width: none;
+        min-height: none;
+    }
     footer{
         grid-row: 1 / 4 ;
         grid-column: 6 / 7;
